@@ -1,7 +1,8 @@
 ---
 title: Wrath of the Arcane Realms
 description: A hex-based, turn-based roguelike strategy game created with DEDICADE Studios.
-short_description: A hex-based roguelike strategy game built with DEDICADE. My work combined game development and art, from incubation to an indie convention showcase.
+short_description: A Unity strategy game I worked on as an artist and developer with DEDICADE. We presented it at GG Convention in 2026.
+status: On hiatus since the team disbanded in 2026.
 category: Game development / Art
 filter: games
 period: Team project · On hiatus
@@ -17,9 +18,9 @@ image_height: 810
 caption: Gameplay image from the DEDICADE Studios Steam page. Team project artwork and game content belong to their respective creators.
 ---
 
-## Making games as a team
+## DEDICADE
 
-I co-founded **DEDICADE**, a five-person team where I worked as both an artist and a game developer. Our work on *Wrath of the Arcane Realms* brought together programming, visual design, iteration, and the practical challenges of building an independent game.
+I co-founded **DEDICADE**, a five-person team where I worked as both an artist and a game developer. We developed Wrath of the Arcane Realms in Unity.
 
 The game is a hex-based, turn-based roguelike strategy game built around party composition, abilities, and tactical decisions. The public Steam page documents the project and its gameplay.
 
@@ -31,8 +32,6 @@ We qualified to present our project to investors at **Girişim23** and shared ou
 
 ## My role & project status
 
-My work combined **art and game development**. This experience shaped my interest in tools that bridge visual creation and implementation, and in workflows where a small team can iterate efficiently.
+I worked on **art and game development** as part of the five-person team.
 
 DEDICADE disbanded in 2026 as our individual goals changed. **The project is on hiatus.** The Steam page remains available as a record of our work; its listed release information should not be taken as a current release commitment.
-
-This was a collaborative project. I do not claim sole authorship of the game or the artwork shown here.

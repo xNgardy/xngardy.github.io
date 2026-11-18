@@ -9,9 +9,6 @@ order: 5
 role: Project developer
 tools: Python · PostgreSQL 17 · Threading · Asyncio
 repository: https://github.com/xNgardy/YZUP_Parallel_Programming_on_PostgreSQL_Servers
-visual: database-visual
-visual_label: 10M rows
-visual_subtitle: Configuration × concurrency
 ---
 
 ## Configuration and concurrency together

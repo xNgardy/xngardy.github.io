@@ -9,9 +9,6 @@ order: 4
 role: Participant & model developer
 tools: Python · PyTorch · Qwen2.5-VL-7B · LoRA
 repository: https://github.com/xNgardy/OBSS_AI_Image_Captioning_Challenge
-visual: captioning-visual
-visual_label: Image → Text
-visual_subtitle: Vision-language models
 ---
 
 ## Detailed captions within a memory budget

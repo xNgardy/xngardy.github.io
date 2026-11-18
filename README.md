@@ -40,7 +40,7 @@ The repository is named **`xngardy.github.io`**, under the **`xNgardy`** account
 
 ## Content notes
 
-See `CONTENT_NOTES.md` for provenance and editorial decisions. Keep publication status, project status, and dates current. The project images show actual work; technical thumbnails without screenshots are typographic labels, not simulated outputs. The profile picture is the existing public GitHub avatar and can be replaced with a portrait at the same path.
+See `CONTENT_NOTES.md` for provenance and editorial decisions. Keep publication status, project status, and dates current. Project thumbnails use actual project images. Projects without screenshots use text entries. The profile picture is the existing public GitHub avatar and can be replaced with a portrait at the same path.
 
 The downloadable CV is a website edition assembled from the supplied CV and updated background. Its source text lives in `scripts/create_cv.py`; regenerate it with Python and ReportLab after editing. The website’s CV page is separately editable in `cv.md`.
 
@@ -54,3 +54,7 @@ The downloadable CV is a website edition assembled from the supplied CV and upda
 - Profile image: Pelinsu Kaleli’s public GitHub avatar.
 
 Original website code is provided under the MIT license. Personal text, project images, documents, and third-party material retain their respective ownership and are not covered by that code license.
+
+## Appearance
+
+The site starts in night mode. The header toggle switches between night and light modes, and saves the choice in browser storage. The theme is applied before the stylesheet loads to avoid a bright flash. Color variables are at the top of `assets/style.css`; theme logic is in `assets/theme-init.js` and `assets/site.js`. All names use upright type.

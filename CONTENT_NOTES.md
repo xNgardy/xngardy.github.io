@@ -26,3 +26,7 @@ This file is an editor’s reference and is excluded from the generated website.
 ## Updating status
 
 If the manuscript is accepted, update `index.html`, `_projects/ridge.md`, `cv.md`, and the PDF source together. If a public preprint is authorized, add its link rather than publishing the peer-review submission file. Update the MSc availability text when plans change. Replace project images with newer real screenshots as the implementations evolve.
+
+## November 2026 design revision
+
+The page uses a plain academic layout, upright naming, readable body text, and direct project descriptions. Decorative slogans, arrows, status dots, category filters, and placeholder thumbnail graphics were removed. Real project images remain. Night mode is the default; the header toggle saves an explicit choice across reloads and pages. Print styles remain light.

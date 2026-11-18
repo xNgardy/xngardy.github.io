@@ -15,7 +15,7 @@ image_alt: Generated Unity scenery showing a city, road network, and surrounding
 caption: Final Unity scenery from the RIDGE graduation project. Image courtesy of the RIDGE team.
 ---
 
-## From satellite data to a virtual environment
+## Overview
 
 RIDGE connects remote-sensing data processing with real-time environments. The framework combines satellite imagery, digital elevation models, vegetation masks, building detections, and OpenStreetMap roads into terrain and object assets for Unity and X-Plane.
 
@@ -55,7 +55,7 @@ Building detection, road generation, and other parts of the system were collabor
 
 **Pelinsu Kaleli**, Bulut Demir, Alper Keskin, Zeynep Sude İmdat, and Emre Sümer.
 
-*Submitted to the Journal of Spatial Science.* This is a submitted manuscript, not an accepted publication.
+Submitted to the Journal of Spatial Science.
 
 The manuscript reports a building intersection-over-union score of **0.6564** with XUNet and vegetation intersection-over-union of **0.5189**, evaluated against manually digitized reference polygons in the study area. These are study-specific measurements, rather than a general accuracy claim for arbitrary imagery.
 

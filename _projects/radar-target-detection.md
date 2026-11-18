@@ -9,7 +9,7 @@ order: 3
 role: Developer
 tools: Unreal Engine 5 · C++
 repository: https://github.com/xNgardy/Radar_Target_Detection_UE5
-image: /assets/images/radar.svg
+diagram: /assets/images/radar.svg
 image_alt: Schematic of a directional radar sweep, with friendly, hostile, and unknown targets around the radar origin.
 image_width: 1280
 image_height: 720

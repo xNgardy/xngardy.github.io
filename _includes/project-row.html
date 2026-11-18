@@ -1,11 +1,13 @@
-<article class="project-row" data-category="{{ include.project.filter }}">
+<article class="project-row{% unless include.project.image %} no-thumbnail{% endunless %}">
+  {% if include.project.image %}
   <a class="project-thumbnail" href="{{ include.project.url | relative_url }}" tabindex="-1" aria-hidden="true">
-    {% if include.project.image %}<img src="{{ include.project.image | relative_url }}" alt="" loading="lazy" width="480" height="300">{% else %}<div class="type-thumbnail {{ include.project.visual }}"><span>{{ include.project.visual_label }}</span><small>{{ include.project.visual_subtitle }}</small></div>{% endif %}
+    <img src="{{ include.project.image | relative_url }}" alt="" loading="lazy" width="480" height="300">
   </a>
+  {% endif %}
   <div class="project-summary">
-    <p class="project-kicker">{{ include.project.category }} <span>· {{ include.project.period }}</span></p>
-    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }} <span aria-hidden="true">↗</span></a></h3>
+    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
     <p>{{ include.project.short_description }}</p>
+    {% if include.project.status %}<p class="project-status">{{ include.project.status }}</p>{% endif %}
     <p class="project-tools">{{ include.project.tools }}</p>
   </div>
 </article>

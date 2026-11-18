@@ -1,7 +1,7 @@
 ---
 title: PlayableSketch
 description: A sketch-to-level authoring tool that turns hand-drawn floor plans into editable layouts and exports them for Unreal Engine.
-short_description: From hand-drawn floor plans to editable layouts and playable Unreal Engine spaces. A hybrid vision pipeline keeps the creator in the loop.
+short_description: Detects walls and doors in a hand-drawn plan, lets you correct the layout in the browser, and exports it to Unreal Engine.
 category: Creative tools / Computer vision
 filter: graphics
 period: Ongoing
@@ -16,11 +16,9 @@ image_height: 840
 caption: Input sketch (left) and detected room geometry from the browser workspace (right). Composite of actual project outputs from an L-shaped example.
 ---
 
-## Drawing as a level-authoring interface
+## Overview
 
-PlayableSketch explores a simple question: **can a hand-drawn plan become a useful starting point for an interactive level?**
-
-The current system detects rooms and doors, turns the result into editable geometry, and lets the user review and adjust the layout in the browser before exporting it for Unreal Engine. It is an ongoing personal project at the intersection of computer vision, geometry processing, and game-development tools.
+I am developing PlayableSketch to use hand-drawn floor plans as input for level creation. It detects rooms and doors, converts them into editable geometry, and lets the user correct the result in a browser before exporting to Unreal Engine.
 
 ## How it works
 
@@ -33,7 +31,7 @@ The current system detects rooms and doors, turns the result into editable geome
 
 Written dimensions are optional, and suggested sizes are editable estimates rather than measurements read from the drawing. Detection can fail on faint or broken lines, so user review is part of the workflow.
 
-## From an inferred plan to a playable space
+## Unreal Engine export
 
 The playable export checks passages for player clearance. In the Unreal runtime, the accepted layout can be explored using movement controls or a route-following option. The packaged application is built separately from the repository.
 
