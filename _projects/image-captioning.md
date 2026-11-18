@@ -15,13 +15,6 @@ repository: https://github.com/xNgardy/OBSS_AI_Image_Captioning_Challenge
 
 For the **OBSS AI Image Captioning Challenge on Kaggle**, I fine-tuned a **Qwen2.5-VL-7B** multimodal transformer to generate detailed image descriptions while working within memory constraints.
 
-I used **LoRA** for parameter-efficient adaptation and **4-bit quantization**, and iterated on training and inference strategies. My submission placed **2nd among 280 participants**.
+I used LoRA to fine-tune the model and 4-bit quantization to reduce memory use, then iterated on training and inference strategies. My submission placed **2nd among 280 participants**.
 
-## What I worked on
-
-- Adapting a pretrained vision-language model to the captioning task.
-- Training with parameter-efficient fine-tuning.
-- Managing model memory requirements through quantization.
-- Evaluating and refining inference strategies for the competition.
-
-The [public notebook and project documentation](https://github.com/xNgardy/OBSS_AI_Image_Captioning_Challenge) provide the implementation context.
+The [public notebook](https://github.com/xNgardy/OBSS_AI_Image_Captioning_Challenge) contains the training and inference code.

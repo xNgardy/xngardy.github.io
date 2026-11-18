@@ -21,11 +21,11 @@ ink, muted, accent = [HexColor(x) for x in ['#29272c', '#6d6874', '#6e4a87']]
 styles = {
     'name': ParagraphStyle('name', fontName='Display', fontSize=27, leading=32, textColor=ink, spaceAfter=8),
     'subtitle': ParagraphStyle('subtitle', fontName='Body', fontSize=10, leading=15, textColor=accent, spaceAfter=7),
-    'body': ParagraphStyle('body', fontName='Body', fontSize=9, leading=12.7, textColor=ink, spaceAfter=5),
-    'small': ParagraphStyle('small', fontName='Body', fontSize=8.2, leading=11.5, textColor=muted, spaceAfter=5),
-    'section': ParagraphStyle('section', fontName='Display', fontSize=15, leading=20, textColor=accent, spaceBefore=10, spaceAfter=6, keepWithNext=True),
+    'body': ParagraphStyle('body', fontName='Body', fontSize=9, leading=12, textColor=ink, spaceAfter=4),
+    'small': ParagraphStyle('small', fontName='Body', fontSize=8.2, leading=11.5, textColor=muted, spaceAfter=3),
+    'section': ParagraphStyle('section', fontName='Display', fontSize=15, leading=20, textColor=accent, spaceBefore=8, spaceAfter=5, keepWithNext=True),
     'heading': ParagraphStyle('heading', fontName='BodyBold', fontSize=9.3, leading=13.2, textColor=ink, spaceBefore=5, spaceAfter=2, keepWithNext=True),
-    'bullet': ParagraphStyle('bullet', fontName='Body', fontSize=9, leading=12.7, textColor=ink, leftIndent=10, firstLineIndent=-8, spaceAfter=4),
+    'bullet': ParagraphStyle('bullet', fontName='Body', fontSize=9, leading=12, textColor=ink, leftIndent=10, firstLineIndent=-8, spaceAfter=3),
 }
 story=[]
 def p(text, kind='body'):
@@ -66,17 +66,17 @@ story.append(PageBreak())
 p('Pelinsu Kaleli','name')
 p('Experience, training &amp; distinctions','subtitle')
 section('Experience')
-heading('Beyond Technologies — Unreal Engine Developer Intern','July–September 2026 · Ankara, Türkiye')
+heading('Beyond Technologies — Unreal Engine Developer','July–September 2026 · Ankara, Türkiye')
 bullet('Built satellite-data preparation and editor tooling with Python, Rasterio, NumPy, and Unreal Engine 5.5 for aerial simulation environments.')
 bullet('Worked on heightmaps, landscape layers, vegetation masks, road generation, and material optimization. Implemented the terrain workflow excluding the building component.')
 heading('TaleWorlds Entertainment — Software Developer Intern','August–September 2025 · Ankara, Türkiye')
-bullet('Developed an event-driven treasure-hunt feature for Mount &amp; Blade II: Bannerlord using C# and the proprietary game engine, with randomly generated objectives and a clue system.')
-bullet('Fixed Unity bugs for an unreleased project and used Plastic SCM within the team’s development workflow.')
+bullet('Co-developed a three-stage treasure-hunt quest mod for Mount &amp; Blade II: Bannerlord in C#, including clue generation, quest progression, and disguise checks.')
+bullet('Fixed Unity bugs and worked on optimization for an unannounced project, with QA reproduction and regression checks; used Plastic SCM.')
 heading('ATOM, ODTÜ Teknokent — DEDICADE co-founder / Pre-incubation member','November 2023–September 2025 · Ankara, Türkiye')
 bullet('Worked as an artist and game developer on Wrath of the Arcane Realms, with mentorship in Unity development, marketing, and publishing.')
 bullet('Participated in game jams, hackathons, and ideathons; qualified to present the team’s project to investors at Girişim23. Shared the team’s story at Karabük University’s Department of Architecture.')
 heading('Fdn SOFT — Game Developer Intern','July–August 2024 · Ankara, Türkiye')
-bullet('Contributed to Bullet Run in Unity and C# within an Agile team; built a Geometry Dash recreation as a supporting project.')
+bullet('Developed Bullet Run, a Geometry Dash-inspired mobile runner, in Unity and C#: alternating player forms, obstacle spawning, parallax scrolling, and survival-based scoring.')
 section('Training &amp; certifications')
 heading('AI Specialization — National Technology Academy / Ministry of Industry and Technology','2024–2025')
 p('Selected for the specialization cohort of 120 from the initial 1,000 trainees. Training and projects in machine learning, PyTorch, Spark, data science, stock-sector classification, and database benchmarking.')

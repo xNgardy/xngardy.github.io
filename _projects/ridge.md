@@ -37,6 +37,15 @@ Building detection, road generation, and other parts of the system were collabor
   <figcaption>Unity output with terrain material painting, from the graduation report.</figcaption>
 </figure>
 
+## Unity pipeline
+
+I built the Python interface that brings the preprocessing steps together for Unity. It can start from raw RGB, DEM, and NDVI GeoTIFFs or use previously prepared tiles. The interface exposes tile size, building-detection and vegetation settings, output folders, and controls for running or stopping the pipeline, with progress shown in a log.
+
+<figure>
+  <a href="{{ '/assets/images/ridge-unity-pipeline.png' | relative_url }}"><img src="{{ '/assets/images/ridge-unity-pipeline.png' | relative_url }}" alt="RIDGE Fully Automatic Unity Pipeline interface in raw GeoTIFF mode, showing input files, tile size, output location, detector and tree settings, and run controls." width="2048" height="1581" loading="lazy"></a>
+  <figcaption>The raw GeoTIFF mode of the Unity pipeline interface. Figure 2.3.7 from our graduation report. Select the image to view it at full size.</figcaption>
+</figure>
+
 ## A shared spatial workflow
 
 1. Align satellite imagery and elevation data while retaining geographic metadata.

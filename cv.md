@@ -37,7 +37,7 @@ Studied industrial design before transitioning to computer engineering; no degre
 
 ## Experience
 
-### Beyond Technologies · Unreal Engine Developer Intern
+### Beyond Technologies · Unreal Engine Developer
 
 <p class="cv-detail">July–September 2026 · Ankara, Türkiye</p>
 
@@ -48,8 +48,8 @@ Studied industrial design before transitioning to computer engineering; no degre
 
 <p class="cv-detail">August–September 2025 · Ankara, Türkiye</p>
 
-- Developed an event-driven treasure-hunt feature for *Mount & Blade II: Bannerlord* using C# and the proprietary engine.
-- Worked on bug fixes in Unity for an unreleased project, and used Plastic SCM in the development workflow.
+- Co-developed a three-stage treasure-hunt quest mod for *Mount & Blade II: Bannerlord* in C#, including clue generation, quest progression, and disguise checks.
+- Fixed Unity bugs and worked on performance optimization for an unannounced project, with QA reproduction and regression checks; used Plastic SCM.
 
 ### ATOM, ODTÜ Teknokent · DEDICADE co-founder / Pre-incubation member
 
@@ -62,7 +62,7 @@ Studied industrial design before transitioning to computer engineering; no degre
 
 <p class="cv-detail">July–August 2024 · Ankara, Türkiye</p>
 
-- Contributed to *Bullet Run* in Unity and C# in an Agile team, and built a Geometry Dash recreation.
+- Developed *Bullet Run*, a Geometry Dash-inspired mobile runner, in Unity and C#: alternating player forms, obstacle spawning, parallax scrolling, and survival-based scoring.
 
 ## Selected projects
 

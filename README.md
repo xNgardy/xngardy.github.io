@@ -1,60 +1,37 @@
-# Pelinsu Kaleli — academic portfolio
+# Pelinsu Kaleli
 
-Personal academic website for [Pelinsu Kaleli](https://xngardy.github.io), built with **Jekyll**, a custom academic theme, and **GitHub Pages**. No frontend framework, paid hosting, tracking, external fonts, or application server is required.
+My [portfolio](https://xngardy.github.io), with research, projects, internship experience, and CV. Built with Jekyll and hosted on GitHub Pages.
 
-## Where to edit
+## Editing
 
-| Content | File |
-| --- | --- |
-| Biography, research overview, experience, contact | `index.html` |
-| CV page | `cv.md` |
-| Downloadable CV | `assets/files/Pelinsu_Kaleli_CV.pdf` |
-| Individual projects | `_projects/*.md` |
-| Profile image | `assets/images/profile.png` |
-| Appearance | `assets/style.css` |
-| Shared layout, navigation, metadata | `_layouts/default.html` |
-| Site URL and settings | `_config.yml` |
-| Publishing workflow | `.github/workflows/pages.yml` |
+- `index.html`: homepage
+- `_projects/`: project pages
+- `experience/`: internship and studio pages
+- `cv.md`: CV page
+- `scripts/create_cv.py`: downloadable CV source (requires ReportLab)
+- `assets/`: images, files, styles, and JavaScript
+- `_layouts/`: shared page layouts
 
-To change text online, open the corresponding file in GitHub, choose **Edit**, and commit to `main`. GitHub Actions builds the site, checks internal links, and publishes it to GitHub Pages automatically.
+## Local development
 
-## Local preview
-
-Use a current Ruby installation (Ruby 3.2 or newer recommended) and Bundler:
+With Ruby and Bundler installed:
 
 ```sh
-bundle install
-bundle exec jekyll serve --livereload
+BUNDLE_PATH=vendor/bundle bundle install
+npm run dev
 ```
 
-Open the local address printed in the terminal. For a production build:
+To build and check links:
 
 ```sh
-JEKYLL_ENV=production bundle exec jekyll build
+npm run build
 python3 scripts/check_site.py _site
 ```
 
-## GitHub Pages configuration
+Pushing to `main` builds and deploys the site through GitHub Actions.
 
-The repository is named **`xngardy.github.io`**, under the **`xNgardy`** account. In **Settings → Pages**, the source is **GitHub Actions**. Every push to `main` runs the included workflow. The custom theme is implemented in this repository, so no remote theme or theme subscription is needed.
+## Credits and license
 
-## Content notes
+RIDGE figures are from our graduation project report. Bannerlord artwork belongs to TaleWorlds Entertainment; Wrath of the Arcane Realms artwork belongs to DEDICADE Studios.
 
-See `CONTENT_NOTES.md` for provenance and editorial decisions. Keep publication status, project status, and dates current. Project thumbnails use actual project images. Projects without screenshots use text entries. The profile picture is the existing public GitHub avatar and can be replaced with a portrait at the same path.
-
-The downloadable CV is a website edition assembled from the supplied CV and updated background. Its source text lives in `scripts/create_cv.py`; regenerate it with Python and ReportLab after editing. The website’s CV page is separately editable in `cv.md`.
-
-## Credits
-
-- Original portfolio layout and implementation created for Pelinsu Kaleli.
-- RIDGE figures: Pelinsu Kaleli, Bulut Demir, Alper Keskin, Zeynep Sude İmdat, and Emre Sümer, from the graduation project report.
-- PlayableSketch images: local development outputs from Pelinsu Kaleli’s project.
-- Wrath of the Arcane Realms image: DEDICADE Studios, from the public Steam page.
-- Radar image: an original schematic of the detection logic, labeled as a diagram rather than an application screenshot.
-- Profile image: Pelinsu Kaleli’s public GitHub avatar.
-
-Original website code is provided under the MIT license. Personal text, project images, documents, and third-party material retain their respective ownership and are not covered by that code license.
-
-## Appearance
-
-The site starts in night mode. The header toggle switches between night and light modes, and saves the choice in browser storage. The theme is applied before the stylesheet loads to avoid a bright flash. Color variables are at the top of `assets/style.css`; theme logic is in `assets/theme-init.js` and `assets/site.js`. All names use upright type.
+Website code is licensed under MIT. Personal content, project materials, and third-party images retain their respective ownership.

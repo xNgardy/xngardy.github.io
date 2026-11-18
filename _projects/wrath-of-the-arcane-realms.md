@@ -11,27 +11,30 @@ role: Co-founder, artist & game developer
 tools: Unity · C# · Game art · Level design
 external_url: https://store.steampowered.com/app/4363570/Wrath_of_the_Arcane_Realms/
 external_label: Steam page
-image: /assets/images/wrath.webp
-image_alt: Wrath of the Arcane Realms gameplay, showing a stylized hexagonal battlefield and character abilities.
-image_width: 1440
-image_height: 810
-caption: Gameplay image from the DEDICADE Studios Steam page. Team project artwork and game content belong to their respective creators.
+image: /assets/images/wrath-steam.jpg
+image_alt: Wrath of the Arcane Realms promotional artwork featuring its characters.
+image_width: 616
+image_height: 353
+caption: Wrath of the Arcane Realms artwork from the DEDICADE Studios Steam page. The project is on hiatus.
 ---
 
-## DEDICADE
+## The game
 
-I co-founded **DEDICADE**, a five-person team where I worked as both an artist and a game developer. We developed Wrath of the Arcane Realms in Unity.
+We built Wrath of the Arcane Realms as a five-person team at DEDICADE Studios. It is a hex-based, turn-based roguelike strategy game where players put together a party and use character abilities in tactical battles.
 
-The game is a hex-based, turn-based roguelike strategy game built around party composition, abilities, and tactical decisions. The public Steam page documents the project and its gameplay.
+I co-founded the team and worked on the 2D character and background art, the level-progression system, and other Unity development.
 
-## Incubation & showing our work
+<figure>
+  <img src="{{ '/assets/images/wrath.webp' | relative_url }}" alt="Wrath of the Arcane Realms gameplay, showing a stylized hexagonal battlefield and character abilities." loading="lazy" width="1440" height="810">
+  <figcaption>Gameplay image from the DEDICADE Studios Steam page.</figcaption>
+</figure>
 
-We spent approximately two years in incubation at **ATOM, ODTÜ Teknokent**, receiving mentorship in development, publishing, marketing, and entrepreneurship. Alongside the project, we participated in game jams, hackathons, and ideathons.
+## Working with DEDICADE
 
-We qualified to present our project to investors at **Girişim23** and shared our team’s story at Karabük University’s Department of Architecture. In **2026**, we showcased the game as an indie team at **GG Convention**.
+We spent approximately two years at ATOM, ODTÜ Teknokent, with mentorship in development, publishing, marketing, and entrepreneurship. We qualified to present to investors at Girişim23, gave a talk at Karabük University, and showed the game at GG Convention in 2026.
 
-## My role & project status
+Photos and more about those events are on my [DEDICADE experience page]({{ '/experience/atom-dedicade/' | relative_url }}).
 
-I worked on **art and game development** as part of the five-person team.
+## Project status
 
-DEDICADE disbanded in 2026 as our individual goals changed. **The project is on hiatus.** The Steam page remains available as a record of our work; its listed release information should not be taken as a current release commitment.
+DEDICADE disbanded in 2026 as our individual goals changed, and the game is on hiatus. The Steam page remains online, but its release estimate is no longer current.

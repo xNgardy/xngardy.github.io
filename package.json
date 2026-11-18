@@ -1,0 +1,8 @@
+{
+  "name": "pelinsu-kaleli-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "BUNDLE_PATH=vendor/bundle bundle exec jekyll serve",
+    "build": "BUNDLE_PATH=vendor/bundle JEKYLL_ENV=production bundle exec jekyll build"
+  }
+}

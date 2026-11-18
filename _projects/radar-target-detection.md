@@ -16,9 +16,9 @@ image_height: 720
 caption: Directional detection schematic illustrating the project’s logic; this is a diagram, not a screenshot of the application.
 ---
 
-## A real-time detection system
+## The radar sweep
 
-This personal project implements a radar-style scanning system in **Unreal Engine using C++**. It combines moving actors, a directional detection sweep, and visual feedback about detected contacts.
+I built a radar-style scanner in Unreal Engine using C++. A directional sweep detects moving actors and displays their classification and tracking state.
 
 ## Features
 
@@ -27,6 +27,4 @@ This personal project implements a radar-style scanning system in **Unreal Engin
 - Threat evaluation based on target type and distance.
 - Hostile warning audio, detection messages, and debug visualization.
 
-The project is a small gameplay and simulation prototype. Its purpose is to explore real-time system behavior and clear feedback inside a game engine.
-
-The [repository](https://github.com/xNgardy/Radar_Target_Detection_UE5) contains the implementation and current project documentation.
+The code is available in the [repository](https://github.com/xNgardy/Radar_Target_Detection_UE5).

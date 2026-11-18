@@ -12,7 +12,7 @@ description: Pelinsu Kaleli, computer engineer. Research and projects in compute
     <div class="text-links profile-links"><a href="mailto:pelinsu.kaleli@gmail.com">Email</a><a href="https://github.com/xNgardy">GitHub</a><a href="https://www.linkedin.com/in/pelinsukaleli/">LinkedIn</a><a href="https://ngardy.itch.io/">itch.io</a><a href="{{ '/assets/files/Pelinsu_Kaleli_CV.pdf' | relative_url }}">CV (PDF)</a></div>
   </div>
   <aside class="intro-aside" aria-label="Profile">
-    <img class="profile-image" src="{{ '/assets/images/profile.png' | relative_url }}" alt="My GitHub avatar, a pixel-art cat in a red cap" width="320" height="320">
+    <img class="profile-image" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Portrait of Pelinsu Kaleli" width="664" height="717">
     <p class="avatar-caption"><a href="https://github.com/xNgardy">xNgardy on GitHub</a></p>
   </aside>
 </section>
@@ -35,19 +35,31 @@ description: Pelinsu Kaleli, computer engineer. Research and projects in compute
   <div class="section-heading"><h2 id="projects-title">Projects</h2><a class="section-note" href="https://github.com/xNgardy?tab=repositories">All repositories</a></div>
   <div class="project-list">
     {% assign projects = site.projects | sort: 'order' %}
-    {% for project in projects %}{% unless project.featured %}{% include project-row.html project=project %}{% endunless %}{% endfor %}
+    {% for project in projects %}{% unless project.featured or project.minor %}{% include project-row.html project=project %}{% endunless %}{% endfor %}
   </div>
+  <section class="small-games" aria-labelledby="small-games-title">
+    <h3 id="small-games-title">Small games</h3>
+    <ul class="small-game-list">
+      {% for project in projects %}{% if project.minor %}
+      <li>
+        <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>
+        <p>{{ project.short_description }}</p>
+        {% if project.external_url %}<a class="small-game-play" href="{{ project.external_url }}">{{ project.external_label }}</a>{% endif %}
+      </li>
+      {% endif %}{% endfor %}
+    </ul>
+  </section>
 </section>
 
 <section id="experience" class="experience-section section-anchor" aria-labelledby="experience-title">
   <div class="section-heading"><h2 id="experience-title">Experience</h2><a class="section-note" href="{{ '/cv/' | relative_url }}">Full CV</a></div>
   <div class="timeline">
-    <article><p class="timeline-date">Jul–Sep 2026</p><div><h3>Beyond Technologies <span>Unreal Engine Developer Intern</span></h3><p>Satellite-to-terrain tooling in Unreal Engine 5.5: raster preprocessing, landscape layers, vegetation masks, road generation, and material optimization.</p></div></article>
-    <article><p class="timeline-date">Aug–Sep 2025</p><div><h3>TaleWorlds Entertainment <span>Software Developer Intern</span></h3><p>Built an event-driven treasure-hunt feature for Mount &amp; Blade II: Bannerlord in C#, and worked on Unity bug fixes for an unreleased project.</p></div></article>
-    <article><p class="timeline-date">Nov 2023–Sep 2025</p><div><h3>ATOM · ODTÜ Teknokent <span>DEDICADE co-founder / Pre-incubation</span></h3><p>Developed games as both an artist and programmer, with mentorship in Unity development, publishing, and entrepreneurship.</p></div></article>
-    <article><p class="timeline-date">Jul–Aug 2024</p><div><h3>Fdn SOFT <span>Game Developer Intern</span></h3><p>Unity and C# gameplay development for Bullet Run, alongside a Geometry Dash recreation.</p></div></article>
+    <article><p class="timeline-date">Jul–Sep 2026</p><div><h3><a href="{{ '/experience/beyond-technologies/' | relative_url }}">Beyond Technologies</a> <span>Unreal Engine Developer</span></h3><p>Built BeyondTerrain, an Unreal Engine 5.5 pipeline that turns satellite data into terrain, vegetation, and roads for aerial simulation.</p></div></article>
+    <article><p class="timeline-date">Aug–Sep 2025</p><div><h3><a href="{{ '/experience/taleworlds-entertainment/' | relative_url }}">TaleWorlds Entertainment</a> <span>Software Developer Intern</span></h3><p>Co-developed a three-stage treasure-hunt quest mod for Bannerlord, including clue generation and disguise checks. Later worked on Unity bug fixes and optimization.</p></div></article>
+    <article><p class="timeline-date">Nov 2023–Sep 2025</p><div><h3><a href="{{ '/experience/atom-dedicade/' | relative_url }}">DEDICADE Studios / ATOM</a> <span>Co-founder, game artist &amp; developer</span></h3><p>Worked on Wrath of the Arcane Realms, including 2D character and background art, the level-progression system, and Unity development.</p></div></article>
+    <article><p class="timeline-date">Jul–Aug 2024</p><div><h3><a href="{{ '/experience/fdn-soft/' | relative_url }}">Fdn SOFT</a> <span>Game Developer Intern</span></h3><p>Developed Bullet Run, a Wild West-themed Unity runner with alternating tumbleweed and bullet controls, obstacle spawning, and a scrolling parallax background.</p></div></article>
   </div>
-  <div class="recognition"><h3>Honors &amp; awards</h3><ul><li>2026: First in Computer Engineering; second in the Faculty of Engineering</li><li>2023: First place at the Kargakarga &amp; Infinia Hackathon with Mazeship</li><li>2022: Third place at the Bilkent CYBERPARK Digital Culture Ideathon</li></ul></div>
+  <div class="recognition"><h3>Honors &amp; awards</h3><ul><li>2026: First in Computer Engineering; second in the Faculty of Engineering</li><li>2023: First place at the Kargakarga / INFINIA / Harmonia Games Game Jam with Mazeship</li><li>2022: Third place at the Bilkent CYBERPARK Digital Culture Ideathon</li></ul></div>
 </section>
 
 <section id="contact" class="contact-section" aria-labelledby="contact-title">
