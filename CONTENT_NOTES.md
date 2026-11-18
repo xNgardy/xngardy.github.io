@@ -30,3 +30,5 @@ If the manuscript is accepted, update `index.html`, `_projects/ridge.md`, `cv.md
 ## November 2026 design revision
 
 The page uses a plain academic layout, upright naming, readable body text, and direct project descriptions. Decorative slogans, arrows, status dots, category filters, and placeholder thumbnail graphics were removed. Real project images remain. Night mode is the default; the header toggle saves an explicit choice across reloads and pages. Print styles remain light.
+
+The SCALR article “20 Signs a Website Was Made by AI” was used for the final visual review. Spacing now uses a shared 4/8/12/16/24/32/48 scale; the mode toggle has distinct hover, focus, and pressed states. Night-mode body text, secondary text, and links exceed 4.5:1 contrast.

@@ -1,6 +1,6 @@
 ---
 title: RIDGE
-description: Rendering Imagery-Driven Geographic Environments — a geospatial pipeline for building Unity and X-Plane environments from satellite imagery and elevation data.
+description: "Rendering Imagery-Driven Geographic Environments: a geospatial pipeline for building Unity and X-Plane environments from satellite imagery and elevation data."
 short_description: A shared geospatial pipeline for Unity and X-Plane.
 category: Research / Geovisualization
 filter: graphics

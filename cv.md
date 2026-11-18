@@ -15,13 +15,13 @@ Computer graphics; procedural environment generation; real-time simulation; crea
 
 ## Education
 
-### Başkent University — BEng, Computer Engineering
+### Başkent University · BEng, Computer Engineering
 
 <p class="cv-detail">September 2022–June 2026 · GPA: 3.83/4.00 · English-medium program</p>
 
 Graduated **first across the English- and Turkish-medium Computer Engineering programs**, and **second in the Faculty of Engineering**. High honors every semester; merit scholarship recipient.
 
-### TED University — Industrial Design studies
+### TED University · Industrial Design studies
 
 <p class="cv-detail">September 2020–June 2022 · GPA: 3.88/4.00 · Full scholarship</p>
 
@@ -37,28 +37,28 @@ Studied industrial design before transitioning to computer engineering; no degre
 
 ## Experience
 
-### Beyond Technologies — Unreal Engine Developer Intern
+### Beyond Technologies · Unreal Engine Developer Intern
 
 <p class="cv-detail">July–September 2026 · Ankara, Türkiye</p>
 
 - Built satellite-data preparation and editor tooling with Python, Rasterio, NumPy, and Unreal Engine 5.5.
 - Worked on heightmaps, landscape layers, vegetation masks, road generation, and material optimization. Implemented the terrain workflow excluding the building component.
 
-### TaleWorlds Entertainment — Software Developer Intern
+### TaleWorlds Entertainment · Software Developer Intern
 
 <p class="cv-detail">August–September 2025 · Ankara, Türkiye</p>
 
 - Developed an event-driven treasure-hunt feature for *Mount & Blade II: Bannerlord* using C# and the proprietary engine.
 - Worked on bug fixes in Unity for an unreleased project, and used Plastic SCM in the development workflow.
 
-### ATOM, ODTÜ Teknokent — DEDICADE co-founder / Pre-incubation member
+### ATOM, ODTÜ Teknokent · DEDICADE co-founder / Pre-incubation member
 
 <p class="cv-detail">November 2023–September 2025 · Ankara, Türkiye</p>
 
 - Worked as an artist and game developer on *Wrath of the Arcane Realms*, with mentorship in Unity, marketing, and publishing.
 - Presented the team’s work at events including Girişim23; showcased the game at GG Convention in 2026. Project currently on hiatus following the team’s disbandment.
 
-### Fdn SOFT — Game Developer Intern
+### Fdn SOFT · Game Developer Intern
 
 <p class="cv-detail">July–August 2024 · Ankara, Türkiye</p>
 
@@ -74,14 +74,14 @@ Studied industrial design before transitioning to computer engineering; no degre
 
 ## Training & certifications
 
-- **National Technology Academy / Ministry of Industry and Technology — AI Specialization**, 2024–2025. Selected for the specialization cohort of 120 from the initial 1,000 trainees; projects in ML, data science, Spark, and database benchmarking.
+- **National Technology Academy / Ministry of Industry and Technology · AI Specialization**, 2024–2025. Selected for the specialization cohort of 120 from the initial 1,000 trainees; projects in ML, data science, Spark, and database benchmarking.
 - **Google Game and Application Academy:** selected among 2,000 participants from 35,000 applicants; training in Unity, design, marketing, and entrepreneurship.
 - **Google Project Management Certificate**, Coursera, 2023. [Credential](https://coursera.org/share/452be4653382c80136254663cb7e0606)
 
 ## Honors & awards
 
-- **1st place**, Kargakarga & Infinia Hackathon, 2023 — technical art and level design for *Mazeship*, built by a four-person team in 30 hours.
-- **3rd place**, Bilkent CYBERPARK Digital Culture Ideathon, 2022 — game development and art in a four-person team over 24 hours.
+- **1st place**, Kargakarga & Infinia Hackathon, 2023 · technical art and level design for *Mazeship*, built by a four-person team in 30 hours.
+- **3rd place**, Bilkent CYBERPARK Digital Culture Ideathon, 2022 · game development and art in a four-person team over 24 hours.
 
 ## Technical skills
 

@@ -13,6 +13,8 @@ class Page(HTMLParser):
         self.images = []
         self.has_title = False
         self.has_main = False
+        self.in_h1 = False
+        self.heading = ''
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -22,11 +24,21 @@ class Page(HTMLParser):
             self.has_title = True
         if tag == 'main':
             self.has_main = True
+        if tag == 'h1':
+            self.in_h1 = True
         for key in ('href', 'src'):
             if key in attrs:
                 self.links.append(attrs[key])
         if tag == 'img':
             self.images.append(attrs)
+
+    def handle_endtag(self, tag):
+        if tag == 'h1':
+            self.in_h1 = False
+
+    def handle_data(self, data):
+        if self.in_h1:
+            self.heading += data
 
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else '_site').resolve()
@@ -40,6 +52,8 @@ for path in root.rglob('*.html'):
     pages[path] = page
     if not page.has_title or not page.has_main:
         errors.append(f'{path.relative_to(root)}: missing title or main landmark')
+    if not page.heading.strip():
+        errors.append(f'{path.relative_to(root)}: missing page heading; check front matter')
     if '{{' in source or '{%' in source:
         errors.append(f'{path.relative_to(root)}: unrendered Liquid template')
     for image in page.images:
