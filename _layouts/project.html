@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="project-page">
+  <a class="back-link" href="{{ '/#projects' | relative_url }}">← Back to selected work</a>
+  <header class="project-header">
+    <p class="eyebrow">{{ page.category }} <span class="eyebrow-divider">/</span> {{ page.period }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="project-deck">{{ page.description }}</p>
+    <div class="project-meta"><span><strong>Role</strong> {{ page.role }}</span><span><strong>Tools</strong> {{ page.tools }}</span></div>
+    <div class="text-links">
+      {% if page.repository %}<a href="{{ page.repository }}">GitHub repository ↗</a>{% endif %}
+      {% if page.external_url %}<a href="{{ page.external_url }}">{{ page.external_label }} ↗</a>{% endif %}
+    </div>
+  </header>
+  {% if page.image %}<figure class="project-cover"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | escape }}" width="{{ page.image_width | default: 1304 }}" height="{{ page.image_height | default: 536 }}"><figcaption>{{ page.caption }}</figcaption></figure>{% endif %}
+  <div class="prose">{{ content }}</div>
+  <aside class="project-bottom"><p>Interested in this work?</p><a href="mailto:pelinsu.kaleli@gmail.com">Let’s get in touch ↗</a></aside>
+</article>

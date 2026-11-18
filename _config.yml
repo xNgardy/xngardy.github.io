@@ -1,0 +1,40 @@
+title: Pelinsu Kaleli
+description: Computer engineer working on computer graphics, procedural environments, game development, and creative tools.
+url: https://xngardy.github.io
+baseurl: ""
+lang: en
+timezone: Europe/Istanbul
+markdown: kramdown
+permalink: pretty
+author:
+  name: Pelinsu Kaleli
+  email: pelinsu.kaleli@gmail.com
+  github: xNgardy
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTENT_NOTES.md
+  - LICENSE
+  - scripts
+  - vendor
+  - .bundle
+  - node_modules
+  - package.json
+  - package-lock.json
+  - preview.png
+  - mobile-preview.png

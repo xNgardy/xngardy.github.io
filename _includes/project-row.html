@@ -1,0 +1,11 @@
+<article class="project-row" data-category="{{ include.project.filter }}">
+  <a class="project-thumbnail" href="{{ include.project.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    {% if include.project.image %}<img src="{{ include.project.image | relative_url }}" alt="" loading="lazy" width="480" height="300">{% else %}<div class="type-thumbnail {{ include.project.visual }}"><span>{{ include.project.visual_label }}</span><small>{{ include.project.visual_subtitle }}</small></div>{% endif %}
+  </a>
+  <div class="project-summary">
+    <p class="project-kicker">{{ include.project.category }} <span>· {{ include.project.period }}</span></p>
+    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }} <span aria-hidden="true">↗</span></a></h3>
+    <p>{{ include.project.short_description }}</p>
+    <p class="project-tools">{{ include.project.tools }}</p>
+  </div>
+</article>

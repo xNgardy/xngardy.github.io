@@ -1,0 +1,62 @@
+---
+layout: default
+description: Pelinsu Kaleli — computer engineer exploring computer graphics, procedural environment generation, game development, and creative tools.
+---
+<section id="about" class="intro section-anchor" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <p class="eyebrow">Computer engineer <span class="eyebrow-divider">/</span> Ankara, Türkiye</p>
+    <h1 id="intro-title">Pelinsu Kaleli<span class="name-dot">.</span></h1>
+    <p class="intro-subtitle">Computer graphics, procedural worlds<br class="desktop-break"> &amp; creative tools.</p>
+    <p>I build tools that turn real-world data and creative ideas into interactive environments. My interests lie in <strong>computer graphics, procedural generation, and game development</strong>, with hands-on experience in Unity and Unreal Engine.</p>
+    <p>I graduated first in Computer Engineering at <a href="https://www.baskent.edu.tr/">Başkent University</a> (BEng, 2026; GPA 3.83/4.00). Before engineering, I studied industrial design—a foundation that continues to shape how I think about visual creation and the tools we use to build it.</p>
+    <div class="text-links profile-links"><a href="mailto:pelinsu.kaleli@gmail.com">Email ↗</a><a href="https://github.com/xNgardy">GitHub ↗</a><a href="https://www.linkedin.com/in/pelinsukaleli/">LinkedIn ↗</a><a href="https://ngardy.itch.io/">itch.io ↗</a><a href="{{ '/assets/files/Pelinsu_Kaleli_CV.pdf' | relative_url }}">CV <span aria-hidden="true">↓</span></a></div>
+  </div>
+  <aside class="intro-aside" aria-label="Profile">
+    <img class="profile-image" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Pelinsu’s GitHub avatar: a pixel-art cat wearing a red game character cap" width="320" height="320">
+    <p class="avatar-caption">Also known as <a href="https://github.com/xNgardy">xNgardy</a>.</p>
+    <div class="availability"><span class="status-dot" aria-hidden="true"></span><p>Seeking a research-based <br>MSc for Fall 2027</p></div>
+    <p class="aside-note">Graphics · Procedural generation<br>Simulation · Creative tools</p>
+  </aside>
+</section>
+
+<section id="research" class="research-section section-anchor" aria-labelledby="research-title">
+  <div class="section-heading"><h2 id="research-title">Research</h2><span class="section-note">From imagery to interactive worlds</span></div>
+  <article class="research-feature">
+    <a class="research-image" href="{{ '/projects/ridge/' | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ '/assets/images/ridge-unity.webp' | relative_url }}" alt="" width="1304" height="536" loading="lazy"><span>RIDGE · Unity environment</span></a>
+    <div class="research-copy">
+      <p class="project-kicker">RIDGE <span>· 2025–2026</span></p>
+      <h3><a href="{{ '/projects/ridge/' | relative_url }}">An automated spatial-data integration framework for satellite imagery, elevation data, and simulator-ready 3D terrain</a></h3>
+      <p class="authors"><strong>Pelinsu Kaleli</strong>, Bulut Demir, Alper Keskin, Zeynep Sude İmdat, and Emre Sümer</p>
+      <p class="paper-status">Submitted to the <em>Journal of Spatial Science</em></p>
+      <p>A shared geospatial pipeline for Unity and X-Plane. My work focused on vegetation detection, the Unity pipeline architecture, and procedural scene generation.</p>
+      <div class="text-links"><a href="{{ '/projects/ridge/' | relative_url }}">Project details ↗</a><a href="https://github.com/xNgardy/RIDGE">Code ↗</a><a href="https://orcid.org/0009-0008-4366-2115">ORCID ↗</a></div>
+    </div>
+  </article>
+  <p class="research-interests"><span>Questions I’m interested in</span> How can we turn spatial data into useful virtual worlds? How can procedural systems give creators more control? How can drawing become a way to author playable spaces?</p>
+</section>
+
+<section id="projects" class="projects-section section-anchor" aria-labelledby="projects-title">
+  <div class="section-heading"><h2 id="projects-title">Selected projects</h2><a class="section-note" href="https://github.com/xNgardy?tab=repositories">All repositories ↗</a></div>
+  <div class="project-filters" role="group" aria-label="Filter selected projects" hidden><button type="button" class="active" data-filter="all" aria-pressed="true">All work</button><button type="button" data-filter="graphics" aria-pressed="false">Graphics &amp; tools</button><button type="button" data-filter="games" aria-pressed="false">Games</button><button type="button" data-filter="ml" aria-pressed="false">ML &amp; systems</button></div>
+  <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+  <div class="project-list">
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for project in projects %}{% unless project.featured %}{% include project-row.html project=project %}{% endunless %}{% endfor %}
+  </div>
+</section>
+
+<section id="experience" class="experience-section section-anchor" aria-labelledby="experience-title">
+  <div class="section-heading"><h2 id="experience-title">Experience &amp; background</h2><a class="section-note" href="{{ '/cv/' | relative_url }}">Full CV ↗</a></div>
+  <div class="timeline">
+    <article><p class="timeline-date">Jul–Sep 2026</p><div><h3>Beyond Technologies <span>Unreal Engine Developer Intern</span></h3><p>Satellite-to-terrain tooling in Unreal Engine 5.5: raster preprocessing, landscape layers, vegetation masks, road generation, and material optimization.</p></div></article>
+    <article><p class="timeline-date">Aug–Sep 2025</p><div><h3>TaleWorlds Entertainment <span>Software Developer Intern</span></h3><p>Built an event-driven treasure-hunt feature for <em>Mount &amp; Blade II: Bannerlord</em> in C#, and worked on Unity bug fixes for an unreleased project.</p></div></article>
+    <article><p class="timeline-date">Nov 2023–Sep 2025</p><div><h3>ATOM · ODTÜ Teknokent <span>DEDICADE co-founder / Pre-incubation</span></h3><p>Developed games as both an artist and programmer, with mentorship in Unity development, publishing, and entrepreneurship.</p></div></article>
+    <article><p class="timeline-date">Jul–Aug 2024</p><div><h3>Fdn SOFT <span>Game Developer Intern</span></h3><p>Unity and C# gameplay development for <em>Bullet Run</em>, alongside a Geometry Dash recreation.</p></div></article>
+  </div>
+  <div class="recognition"><p class="eyebrow">A few milestones</p><ul><li><span>2026</span> First in Computer Engineering · Second in the Faculty of Engineering</li><li><span>2023</span> First place · Kargakarga &amp; Infinia Hackathon, <em>Mazeship</em></li><li><span>2022</span> Third place · Bilkent CYBERPARK Digital Culture Ideathon</li></ul></div>
+</section>
+
+<section id="contact" class="contact-section section-anchor" aria-labelledby="contact-title">
+  <div><p class="eyebrow">Let’s connect</p><h2 id="contact-title">Building worlds, <br>looking for the next question.</h2></div>
+  <div><p>I’m looking for research-based MSc opportunities for Fall 2027 in computer graphics, procedural generation, simulation, and creative tools.</p><a class="contact-email" href="mailto:pelinsu.kaleli@gmail.com">pelinsu.kaleli@gmail.com <span aria-hidden="true">↗</span></a><div class="text-links"><a href="https://github.com/xNgardy">GitHub ↗</a><a href="https://www.linkedin.com/in/pelinsukaleli/">LinkedIn ↗</a><a href="{{ '/assets/files/Pelinsu_Kaleli_CV.pdf' | relative_url }}">Download CV ↓</a></div></div>
+</section>
