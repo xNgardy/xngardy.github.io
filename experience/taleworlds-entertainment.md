@@ -1,7 +1,7 @@
 ---
 layout: experience
 title: TaleWorlds Entertainment
-description: "A multi-stage treasure-hunt quest mod for Bannerlord, followed by debugging and optimization on an unannounced Unity project."
+description: "A multi-stage treasure-hunt quest mod for Bannerlord, followed by debugging and optimization on an unannounced project."
 period: August–September 2025 · Ankara, Türkiye
 role: Software Developer Intern
 tools: C# · Bannerlord Editor · Unity · Plastic SCM · dnSpy
@@ -41,13 +41,11 @@ The mod responded to campaign events such as settlement entry, level-ups, and ba
 
 To find ways to connect these features to the existing game, I read the design team's requirements and examined community mods with dnSpy. We used Plastic SCM for source control and discussed the work in code reviews, pair-programming sessions, and weekly meetings.
 
-## Debugging an Unannounced Unity Project
+## Debugging an Unannounced Project
 
-In the latter part of the internship, I moved to an unannounced Unity project, where I fixed dozens of C# bugs and worked on performance issues. I worked with QA and developers to reproduce reported problems, trace their causes across interacting scripts, and check the fixes for regressions.
+In the latter part of the internship, I moved to an unannounced project, where I fixed dozens of C# bugs and worked on performance issues. I worked with QA and developers to reproduce reported problems, trace their causes across interacting scripts, and check the fixes for regressions.
 
 I used breakpoints, stack traces, console logging, and Unity's Profiler to investigate behavior and runtime costs. My work included state-machine-based timed sequences and fixed-timestep timing without coroutines, as well as changes to performance-critical code.
-
-The project is covered by an NDA, so I keep its gameplay, feature details, and code out of this portfolio.
 
 <figure class="photo-portrait">
   <img src="{{ '/assets/images/taleworlds-last-day.jpg' | relative_url }}" alt="Pelinsu Kaleli standing in front of the TaleWorlds logo" width="1235" height="1600" loading="lazy">
