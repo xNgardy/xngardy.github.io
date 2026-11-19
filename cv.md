@@ -4,7 +4,7 @@ permalink: /cv/
 description: Education, research, projects, experience, and awards of Pelinsu Kaleli.
 ---
 <article class="cv-page">
-<header class="cv-heading"><div><p class="page-label">Curriculum vitae</p><h1>Pelinsu Kaleli</h1></div><div class="cv-actions"><a href="{{ '/assets/files/Pelinsu_Kaleli_CV.pdf' | relative_url }}">Download PDF</a><button class="print-button" type="button" data-print-cv>Print this page</button></div></header>
+<header class="cv-heading"><div><p class="page-label">Curriculum vitae</p><h1>Pelinsu Kaleli</h1></div><div class="cv-actions"><a href="{{ '/assets/files/Pelinsu_Kaleli_CV.pdf' | relative_url }}?v=d5aadc0ece60">Download PDF</a><button class="print-button" type="button" data-print-cv>Print this page</button></div></header>
 <div class="prose cv-prose" markdown="1">
 
 Ankara, Türkiye · [pelinsu.kaleli@gmail.com](mailto:pelinsu.kaleli@gmail.com) · [GitHub](https://github.com/xNgardy) · [LinkedIn](https://www.linkedin.com/in/pelinsukaleli/) · [itch.io](https://ngardy.itch.io/) · [ORCID](https://orcid.org/0009-0008-4366-2115)
