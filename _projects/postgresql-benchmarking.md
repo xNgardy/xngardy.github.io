@@ -11,13 +11,13 @@ tools: Python · PostgreSQL 17 · Threading · Asyncio
 repository: https://github.com/xNgardy/YZUP_Parallel_Programming_on_PostgreSQL_Servers
 ---
 
-## Comparing two server configurations
+## Comparing Two Server Configurations
 
 I tested how PostgreSQL configuration affects query latency and throughput, then compared sequential execution, threading, and asyncio on the same workload.
 
 I compared an optimized and a deliberately poorly configured PostgreSQL server using **10 million rows**. The test environment used Ubuntu 22.04 LTS with four CPUs and 8 GB of RAM.
 
-## Experimental setup
+## Experimental Setup
 
 The benchmarks included indexed ID lookups, email searches, date-range filters, and grouping and sorting queries. Separate Python benchmarks compared concurrency approaches across the two configurations.
 

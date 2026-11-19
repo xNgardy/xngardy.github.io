@@ -82,8 +82,8 @@ for private in ['CONTENT_NOTES.md', 'scripts', 'Gemfile', 'manuscript-r0.pdf', '
 for required in ['index.html', 'cv/index.html', '404.html', 'sitemap.xml', 'robots.txt', 'assets/files/Pelinsu_Kaleli_CV.pdf']:
     if not (root / required).is_file():
         errors.append(f'Missing output: {required}')
-if len(list((root / 'projects').glob('*/index.html'))) != 8:
-    errors.append('Expected eight project pages')
+if len(list((root / 'projects').glob('*/index.html'))) != 9:
+    errors.append('Expected nine project pages')
 if errors:
     sys.exit('\n'.join(errors))
 print(f'Checked {len(pages)} HTML pages: internal URLs, anchors, image attributes, expected outputs, and source exclusions passed.')

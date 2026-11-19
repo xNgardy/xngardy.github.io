@@ -68,6 +68,8 @@ nav a:hover, nav a[aria-current] { color: var(--text); text-decoration: underlin
 .intro-copy > p:not(.byline) { margin-top: var(--space-3); }
 .intro-aside { padding-top: var(--space-1); }
 .profile-image { width: 176px; height: 176px; border-radius: 3px; object-fit: cover; object-position: center 35%; }
+.profile-cv { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 176px; min-height: 44px; margin-top: var(--space-3); padding: var(--space-2); border: 1px solid var(--link); border-radius: 3px; background: var(--link); color: var(--background); font-size: 1rem; font-weight: 600; text-decoration: none; }
+.profile-cv:hover { background: var(--background); color: var(--link); }
 .avatar-caption { font-size: .8125rem; margin-top: var(--space-2); color: var(--secondary); }
 .text-links { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: .875rem; }
 .profile-links { margin-top: var(--space-4); }
@@ -86,7 +88,7 @@ nav a:hover, nav a[aria-current] { color: var(--text); text-decoration: underlin
 .project-row:last-child { border-bottom: 0; padding-bottom: 0; }
 .project-row.no-thumbnail { display: block; }
 .project-thumbnail { display: block; }
-.project-thumbnail img { width: 180px; height: 120px; object-fit: cover; border-radius: 2px; }
+.project-thumbnail img { width: 180px; height: auto; object-fit: contain; border-radius: 2px; }
 .project-summary h3 { margin-bottom: var(--space-2); }
 .project-summary > p:not([class]) { font-size: 1rem; }
 .project-tools { color: var(--secondary); font-size: .8125rem; margin-top: var(--space-2); }
@@ -159,7 +161,7 @@ nav a:hover, nav a[aria-current] { color: var(--text); text-decoration: underlin
   .research-feature { grid-template-columns: 180px minmax(0,1fr); gap: var(--space-4); }
   .research-image img { width: 180px; height: 145px; }
   .project-row { grid-template-columns: 150px minmax(0,1fr); gap: var(--space-4); }
-  .project-thumbnail img { width: 150px; height: 110px; }
+  .project-thumbnail img { width: 150px; }
 }
 @media (max-width: 520px) {
   .site-header, .site-main, .site-footer { padding-left: var(--space-4); padding-right: var(--space-4); }

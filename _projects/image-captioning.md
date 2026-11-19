@@ -11,7 +11,7 @@ tools: Python · PyTorch · Qwen2.5-VL-7B · LoRA
 repository: https://github.com/xNgardy/OBSS_AI_Image_Captioning_Challenge
 ---
 
-## Detailed captions within a memory budget
+## Detailed Captions within a Memory Budget
 
 For the **OBSS AI Image Captioning Challenge on Kaggle**, I fine-tuned a **Qwen2.5-VL-7B** multimodal transformer to generate detailed image descriptions while working within memory constraints.
 

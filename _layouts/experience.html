@@ -4,10 +4,9 @@ layout: default
 <article class="project-page experience-page">
   <a class="back-link" href="{{ '/#experience' | relative_url }}">Back to experience</a>
   <header class="project-header">
-    <p class="project-category">{{ page.period }}</p>
     <h1>{{ page.title }}</h1>
     <p class="project-deck">{{ page.description }}</p>
-    <div class="project-meta"><span><strong>Role</strong> {{ page.role }}</span><span><strong>Tools</strong> {{ page.tools }}</span></div>
+    <div class="project-meta"><span><strong>Tools</strong> {{ page.tools }}</span></div>
     {% if page.links %}<div class="text-links">{% for link in page.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
   </header>
   {% if page.image %}<figure class="project-cover">{% if page.image_url %}<a href="{{ page.image_url }}">{% endif %}<img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | escape }}" width="{{ page.image_width }}" height="{{ page.image_height }}">{% if page.image_url %}</a>{% endif %}<figcaption>{{ page.caption }}</figcaption></figure>{% endif %}

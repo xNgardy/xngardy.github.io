@@ -18,11 +18,11 @@ image_height: 353
 caption: Wrath of the Arcane Realms artwork from the DEDICADE Studios Steam page. The project is on hiatus.
 ---
 
-## The game
+## The Game
 
 We built Wrath of the Arcane Realms as a five-person team at DEDICADE Studios. It is a hex-based, turn-based roguelike strategy game where players put together a party and use character abilities in tactical battles.
 
-I co-founded the team and worked on the 2D character and background art, the level-progression system, and other Unity development.
+I co-founded the team, created 2D character and background designs, and developed the level-progression system alongside other Unity game-development work. I also used shaders to enhance the gameplay atmosphere, including reflections and wave effects on columns.
 
 <figure>
   <img src="{{ '/assets/images/wrath.webp' | relative_url }}" alt="Wrath of the Arcane Realms gameplay, showing a stylized hexagonal battlefield and character abilities." loading="lazy" width="1440" height="810">
@@ -35,6 +35,6 @@ We spent approximately two years at ATOM, ODTÜ Teknokent, with mentorship in de
 
 Photos and more about those events are on my [DEDICADE experience page]({{ '/experience/atom-dedicade/' | relative_url }}).
 
-## Project status
+## Project Status
 
 DEDICADE disbanded in 2026 as our individual goals changed, and the game is on hiatus. The Steam page remains online, but its release estimate is no longer current.

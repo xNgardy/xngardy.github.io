@@ -19,13 +19,13 @@ caption: "Mount & Blade II: Bannerlord artwork from its Steam page."
 permalink: /experience/taleworlds-entertainment/
 ---
 
-## Treasure hunts in Bannerlord
+## Treasure Hunts in Bannerlord
 
 I worked with the Design and Mission teams on a treasure-hunt quest mod for *Mount & Blade II: Bannerlord*. Another intern and I implemented the mod in C#, using TaleWorlds' proprietary engine and existing campaign and quest systems, with guidance from senior developers.
 
 Each hunt had three stages: Early, Middle, and Final. The player followed a sequence of clues between settlements to reach the treasure. The challenge was to generate different routes while keeping the clues, quest state, and settlement tracking consistent.
 
-## Clue generation and quest progression
+## Clue Generation and Quest Progression
 
 I created a pool of clue templates organized by theme and stage. Each clue carried a description, difficulty points, and any required items. When a quest was generated, the system selected clues within the allowed themes and difficulty range and assigned them to settlements.
 
@@ -33,7 +33,7 @@ Clue difficulty determined a minimum and maximum distance from the player's posi
 
 The quest manager prevented duplicate quests, assembled the three stages, and calculated the overall difficulty. As the player entered a target settlement, the quest advanced to the next clue and updated the tracked location. Completing the final stage awarded gold scaled to the quest's difficulty.
 
-## Disguises and campaign events
+## Disguises and Campaign Events
 
 I also implemented a regional disguise mechanic. Some clues required the player to equip culturally appropriate items before progressing at a settlement. If the equipment check failed, the quest stayed on the current stage and notified the player of the missing disguise.
 
@@ -41,7 +41,7 @@ The mod responded to campaign events such as settlement entry, level-ups, and ba
 
 To find ways to connect these features to the existing game, I read the design team's requirements and examined community mods with dnSpy. We used Plastic SCM for source control and discussed the work in code reviews, pair-programming sessions, and weekly meetings.
 
-## Debugging an unannounced Unity project
+## Debugging an Unannounced Unity Project
 
 In the latter part of the internship, I moved to an unannounced Unity project, where I fixed dozens of C# bugs and worked on performance issues. I worked with QA and developers to reproduce reported problems, trace their causes across interacting scripts, and check the fixes for regressions.
 

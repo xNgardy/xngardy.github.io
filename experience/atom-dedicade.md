@@ -23,7 +23,7 @@ permalink: /experience/atom-dedicade/
 
 I co-founded DEDICADE Studios with four teammates and worked as an artist and developer. We spent approximately two years in pre-incubation at [ATOM, ODTÜ Teknokent](https://www.atom.org.tr), developing [Wrath of the Arcane Realms]({{ '/projects/wrath-of-the-arcane-realms/' | relative_url }}) in Unity.
 
-My work included 2D character and background designs and the level-progression system, alongside other game-development work.
+My work included 2D character and background designs and the level-progression system, alongside other Unity game-development work. I also used shaders to enhance the gameplay atmosphere, including reflections and wave effects on columns.
 
 Alongside development, we took part in game jams, ideathons, and hackathons. In 2023, we qualified to present our project to investors at Girişim23.
 
@@ -32,7 +32,7 @@ Alongside development, we took part in game jams, ideathons, and hackathons. In 
   <figcaption>At Girişim23, where we qualified to present our project to investors in 2023.</figcaption>
 </figure>
 
-## Karabük University talk
+## Karabük University Talk
 
 We were invited to Karabük University's Department of Architecture to share our story and present our work as a team.
 
@@ -52,7 +52,7 @@ We were invited to Karabük University's Department of Architecture to share our
   </figure>
 </div>
 
-## Game-jam award
+## Game-Jam Award
 
 We won first place at the Kargakarga / INFINIA / Harmonia Games game jam as DEDICADE Studios.
 
@@ -75,6 +75,10 @@ In 2026, we were invited to [GG Convention](https://ggconvention.com) as an indi
   <figcaption>Our booth, where we presented Wrath of the Arcane Realms to attendees.</figcaption>
 </figure>
 
-## Current status
+## Current Status
 
 DEDICADE Studios disbanded in 2026 as our individual goals changed. Wrath of the Arcane Realms is on hiatus; we have kept the source code and project materials. The Steam page remains online.
+
+## Acknowledgments
+
+Thank you to my former DEDICADE teammates, Zeynep Topuz, Mehmet Yusuf Bilge, Özgür Giray, and Selahattin Nacar, for their collaboration throughout our time as a team.

@@ -12,7 +12,7 @@ tools: Unity · C# · Tilemaps
 repository: https://github.com/xNgardy/Beware-of-the-Bug
 ---
 
-## The game
+## The Game
 
 I built this version of Minesweeper in Unity and made the visual assets myself.
 

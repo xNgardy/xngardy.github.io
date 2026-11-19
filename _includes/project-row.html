@@ -1,7 +1,7 @@
 <article class="project-row{% unless include.project.image %} no-thumbnail{% endunless %}">
   {% if include.project.image %}
   <a class="project-thumbnail" href="{{ include.project.url | relative_url }}" tabindex="-1" aria-hidden="true">
-    <img src="{{ include.project.image | relative_url }}" alt="" loading="lazy" width="480" height="300">
+    <img src="{{ include.project.image | relative_url }}" alt="" loading="lazy"{% if include.project.image_width and include.project.image_height %} width="{{ include.project.image_width }}" height="{{ include.project.image_height }}"{% endif %}>
   </a>
   {% endif %}
   <div class="project-summary">

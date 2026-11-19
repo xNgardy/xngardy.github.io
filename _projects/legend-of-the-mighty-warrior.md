@@ -21,7 +21,7 @@ I originally developed *The Legend of the Mighty Warrior* as a text-based game i
 
 The six-chapter fantasy story follows a would-be royal knight on a journey to defeat the Elden Dragon. Player choices lead through different events, encounters, and endings.
 
-## Story system
+## Story System
 
 I implemented the story as connected ScriptableObject story blocks. Each block contains its text, player options, links to subsequent blocks, and optional rules for items or final scenes.
 

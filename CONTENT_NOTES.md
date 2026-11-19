@@ -21,7 +21,7 @@ This file is an editor’s reference and is excluded from the generated website.
 - The peer-review submission PDF and graduation report are not uploaded. The site includes a research summary, selected project figures, and a contact link. The report contains student IDs and the manuscript contains submission-specific details.
 - The CV PDF is a public-facing website edition. Phone number and neighborhood-level address are omitted; professional email, city, and public profile links are included.
 - TED University is listed as industrial design **studies**, not a completed architecture or design degree.
-- Beyond Technologies is listed as a completed internship, July–September 2026, following the newer background narrative. Its page presents BeyondTerrain as a new project, does not connect it to RIDGE, and excludes the building component from Pelinsu’s contributions. Company source code and data are not included.
+- Beyond Technologies is listed as a completed internship, July–September 2026, following the newer background narrative. Its page uses a descriptive project heading, does not connect it to RIDGE, and credits Alper Keskin for the building component. The technical sections describe Pelinsu’s raster processing, editor tooling, vegetation, roads, and materials work. Company source code and data are not included.
 - RIDGE is a collaborative project. Personal contributions and team credit are separated.
 - No demo video link, Google Scholar account, publication acceptance, invented screenshot, or unsupported project has been added.
 - PlayableSketch is ongoing; screenshots record project examples rather than general performance guarantees.
@@ -51,3 +51,7 @@ The supplied CSE 498 report (2 October 2025), particularly pages 5–12, credits
 
 
 The Unity pipeline screenshot is extracted directly from Figure 2.3.7 (page 62) of the supplied graduation report, under Pelinsu Kaleli's section. It appears only in the RIDGE project page's Unity pipeline section, not on the homepage. The screenshot's API-key field is empty. Only the embedded screenshot is included; the report remains outside the site.
+
+## Contribution and team-credit clarification
+
+The owner clarified that the Beyond Technologies environment project was developed with Alper Keskin, who handled the building component. The Wrath project and DEDICADE experience pages include Pelinsu’s 2D character and background designs, level-progression system, and atmospheric shader work (reflections and wave effects on columns). The DEDICADE page acknowledges former teammates Zeynep Topuz, Mehmet Yusuf Bilge, Özgür Giray, and Selahattin Nacar. Project and experience section headings use title case.

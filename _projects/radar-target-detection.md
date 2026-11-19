@@ -16,7 +16,7 @@ image_height: 720
 caption: Directional detection schematic illustrating the project’s logic; this is a diagram, not a screenshot of the application.
 ---
 
-## The radar sweep
+## The Radar Sweep
 
 I built a radar-style scanner in Unreal Engine using C++. A directional sweep detects moving actors and displays their classification and tracking state.
 

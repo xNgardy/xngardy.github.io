@@ -24,7 +24,7 @@ A sketch is a quick way to describe a space. Turning it into a level means decid
 
 I developed the dataset and annotations, trained and compared models, implemented room reconstruction and the browser editor, and connected the export to Unreal Engine. Alongside Python, PyTorch, and C++, I use OpenCV for image processing and Shapely for geometry operations.
 
-## From image to editable layout
+## From Image to Editable Layout
 
 ### Walls and doors
 
@@ -45,7 +45,7 @@ The geometry stage preserves indentations and aligns neighboring boundaries wher
   <figcaption>One drawing, from wall detection to proposed room boundaries.</figcaption>
 </figure>
 
-## Dataset creation and annotation
+## Dataset Creation and Annotation
 
 I made a core collection of **140 floor plans**: 70 drawn by hand and 70 synthetic plans created with AI assistance. I drew and annotated the hand-drawn plans myself, recording walls, openings, and room layouts.
 
@@ -58,7 +58,7 @@ The resulting 840 images come from 140 original plans. They add variation in app
   <figcaption>One drawing, its reference annotations, and four augmented views.</figcaption>
 </figure>
 
-## Model development and evaluation
+## Model Development and Evaluation
 
 I compared classical image-processing methods with U-Net, YOLO detectors, Faster R-CNN, and a Mask2Former pilot to see how wall and door errors carried through to room reconstruction. I then continued training the U-Net and YOLO11n combination with real drawings and generated layouts, selecting checkpoints and inference thresholds on validation data.
 
@@ -76,7 +76,7 @@ This is a small development subset whose drawings had been examined in earlier e
 
 Training setup and per-experiment results are documented in the project repository's `Docs` directory.
 
-## Interactive review and authoring
+## Interactive Review and Authoring
 
 The browser workspace shows the sketch beside the proposed layout. Users can move or resize rooms, add missing rooms and doors, remove incorrect suggestions, and adjust connections.
 
@@ -89,7 +89,7 @@ Written dimensions are optional. Suggested sizes are editable design estimates, 
 
 Export requires confirmation of a specific layout revision. Changing geometry, dimensions, or relevant settings requires confirmation again. Exported bundles keep provenance and file hashes so the accepted design can be traced through the workflow.
 
-## Unreal Engine integration
+## Unreal Engine Integration
 
 The reviewed layout is exported as validated JSON for the Unreal Engine C++ importer. There are two export modes:
 
@@ -110,7 +110,7 @@ The Unreal runtime supports movement through the generated environment and a rou
 
 I checked the current hybrid model through editing, sizing, and geometry export on L-shaped and U-shaped examples. These produced the expected four-room/three-door and two-room/one-door layouts. They are integration examples; the latest hybrid update has not been separately verified through Unreal gameplay.
 
-## Current limits and next steps
+## Current Limits and Next Steps
 
 The prototype handles single-floor, top-down drawings with explicit wall and door marks. Faint or broken walls, small missed doors, and boundary reconstruction can still cause failures.
 

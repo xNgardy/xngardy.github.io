@@ -4,10 +4,9 @@ layout: default
 <article class="project-page">
   <a class="back-link" href="{{ '/#projects' | relative_url }}">All projects</a>
   <header class="project-header">
-    <p class="project-category">{{ page.category }} · {{ page.period }}</p>
     <h1>{{ page.title }}</h1>
     <p class="project-deck">{{ page.description }}</p>
-    <div class="project-meta"><span><strong>Role</strong> {{ page.role }}</span><span><strong>Tools</strong> {{ page.tools }}</span></div>
+    <div class="project-meta"><span><strong>Tools</strong> {{ page.tools }}</span></div>
     <div class="text-links">
       {% if page.repository %}<a href="{{ page.repository }}">GitHub repository</a>{% endif %}
       {% if page.external_url %}<a href="{{ page.external_url }}">{{ page.external_label }}</a>{% endif %}
