@@ -19,7 +19,7 @@ This file is an editor’s reference and is excluded from the generated website.
 
 - The site calls the paper **submitted**, never accepted or published. No DOI has been invented.
 - The peer-review submission PDF and graduation report are not uploaded. The site includes a research summary, selected project figures, and a contact link. The report contains student IDs and the manuscript contains submission-specific details.
-- The CV PDF is a public-facing website edition. Phone number and neighborhood-level address are omitted; professional email, city, and public profile links are included.
+- The CV PDF was replaced with the exact owner-supplied Pelinsu_Kaleli_CV.pdf on 19 November 2026, at the owner’s request for publication. No content edits were made to the supplied PDF.
 - TED University is listed as industrial design **studies**, not a completed architecture or design degree.
 - Beyond Technologies is listed as a completed internship, July–September 2026, following the newer background narrative. Its page uses a descriptive project heading, does not connect it to RIDGE, and credits Alper Keskin for the building component. The technical sections describe Pelinsu’s raster processing, editor tooling, vegetation, roads, and materials work. Company source code and data are not included.
 - RIDGE is a collaborative project. Personal contributions and team credit are separated.
